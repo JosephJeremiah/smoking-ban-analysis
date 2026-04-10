@@ -1,4 +1,4 @@
-# 📊 SmokeBan Analysis — Effect of Workplace Smoking Bans on Smoking Behaviour
+# SmokeBan Analysis — Effect of Workplace Smoking Bans on Smoking Behaviour
 
 ## 📖 Overview
 
@@ -14,7 +14,7 @@ Conducted entirely in **R Markdown**, this project demonstrates a full end-to-en
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains **10,000 observations** with no missing values, ensuring high statistical reliability.
 
@@ -30,39 +30,39 @@ The dataset contains **10,000 observations** with no missing values, ensuring hi
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 A rigorous analytical pipeline was implemented:
 
-### 🔹 Descriptive Analysis
+###  Descriptive Analysis
 - Frequency distributions and proportions  
 - Cross-tabulations of smoking status vs predictors  
 
-### 🔹 Data Visualisation
+###  Data Visualisation
 - Bar charts and histograms  
 - Forest plots (odds ratios)  
 - Predicted probability curves  
 
-### 🔹 Assumption Testing
+###  Assumption Testing
 - Multicollinearity: Variance Inflation Factor (VIF)  
 - Linearity: Box-Tidwell test  
 - Outliers: Cook’s Distance  
 - Sample adequacy: Events Per Variable (EPV)  
 
-### 🔹 Statistical Testing
+###  Statistical Testing
 - Chi-square test of independence  
 
-### 🔹 Predictive Modelling
+###  Predictive Modelling
 - **Binary Logistic Regression** to estimate smoking probability  
 
-### 🔹 Model Evaluation
+###  Model Evaluation
 - Nagelkerke R²  
 - Hosmer–Lemeshow goodness-of-fit test  
 - AIC and model deviance  
 
 ---
 
-## 📈 Key Results
+## Results
 
 | Predictor | Odds Ratio | 95% CI | p-value | Interpretation |
 |-----------|-----------|--------|---------|----------------|
@@ -73,14 +73,14 @@ A rigorous analytical pipeline was implemented:
 | Age | 0.992 | 0.988 – 0.996 | < 0.001 | 0.8% lower odds per year |
 | African-American (yes) | 0.869 | 0.728 – 1.037 | 0.119 | Not statistically significant |
 
-### 📊 Model Statistics
+### Model Statistics
 - **Chi-square:** χ² = 77.54, df = 1, p < 0.001  
 - **Effect size:** Cramér's V = 0.088 (small but meaningful)  
 - **Nagelkerke R²:** 0.081  
 
 ---
 
-## 🔍 Key Insight
+## Summary
 
 > Individuals exposed to workplace smoking bans are approximately **22% less likely to smoke**, even after controlling for demographic characteristics.
 
@@ -88,12 +88,10 @@ This provides strong empirical support for smoking ban policies as effective pub
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 Workplace smoking bans have a **statistically significant and independent effect** on reducing smoking behaviour. Among all predictors, **education emerges as the strongest determinant**, highlighting the importance of socio-economic and awareness factors in shaping health behaviours.
 
 These findings align with public health policy frameworks such as Nigeria’s **National Tobacco Control Act (2015)** and reinforce the value of regulatory interventions in reducing population-level health risks.
 
 ---
-
-## 📁 Repository Structure
